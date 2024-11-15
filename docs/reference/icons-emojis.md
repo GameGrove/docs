@@ -218,7 +218,7 @@ reference any icon that's [bundled with the theme][icon search] with Jinja's
 
 ``` html
 <span class="twemoji">
-  {% include ".icons/fontawesome/brands/youtube.svg" %} <!-- (1)! -->
+  {% include icons/fontawesome/brands/youtube.svg %}
 </span>
 ```
 
